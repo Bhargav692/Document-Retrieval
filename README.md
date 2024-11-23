@@ -55,12 +55,12 @@ Solution:
 Implement query rewriting/paraphrasing to clarify user intent using language models.
 
 Results
-Baseline QA Performance:
-Initial QA accuracy: 65% EM on SQuAD 2.0 with retrieved documents.
-Enhanced Retrieval:
-Precision@5 improved to 85% using hybrid retrieval and re-ranking.
-QA Performance After Refinement:
-QA accuracy improved to 78% EM, demonstrating pipeline resilience to retrieval noise.
+QA model accuracy was a high accuracy with top-10 (71.48%); in top-1 a low
+accuray (43.22%) EM on SQuAD 2.0 when fed with retrieved documents when we
+used TF-IDF Vectorizer.
+QA model accuracy was a good accuracy with top-10 (12.15%); in top-1 a low
+accuray (3.07%) EM on SQuAD 2.0 when fed with retrieved documents when we
+used Word2Vec / Embedding.
 
 Installation
 Download SQuAD 2.0 from official site and place it in the data/ folder.
